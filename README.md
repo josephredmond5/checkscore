@@ -1,71 +1,98 @@
-# Getting Started with Create React App
+# CHECKSCORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React web application that displays the latest scores, fixtures, and results of your favorite sports: rugby league, rugby union, football, and F1. The app is built using `create-react-app` and utilizes various APIs to fetch the sports data and present it in a user-friendly interface.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run the app on your local machine, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine using the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/josephredmond5/checkscore.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
 
-### `npm test`
+```bash
+cd checkscore-app
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the required dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Run the app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will start running on [http://localhost:3000](http://localhost:3000). Open your web browser and go to this URL to view the app.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Sports Results App offers the following features:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Rugby League**: View the latest scores, fixtures, and results of rugby league matches.
+2. **Rugby Union**: Get updated scores, fixtures, and results of rugby union matches.
+3. **Football**: Stay informed about the latest scores, fixtures, and results of football matches.
+4. **F1**: Access the current standings, race schedules, and results of Formula 1 races.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## APIs Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The app utilizes the following APIs to fetch sports data:
 
-## Learn More
+- Rugby League: 
+- Rugby Union:
+- Football:
+- F1:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Please note that the above APIs are fictional and not real. You would need to replace them with actual APIs that provide the relevant sports data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure
 
-### Code Splitting
+The project folder structure is organized as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+sports-results-app/
+  |-- public/
+  |-- src/
+      |-- components/
+      |-- services/
+      |-- App.js
+      |-- index.js
+  |-- package.json
+  |-- README.md
+  |-- ...
+```
 
-### Analyzing the Bundle Size
+- The `public` folder contains the HTML template and other static assets for the app.
+- The `src` folder holds the application's source code.
+- The `components` folder contains reusable React components used to build the user interface.
+- The `services` folder includes API service modules responsible for fetching sports data.
+- `App.js` is the main component that renders the app's UI and handles the data presentation.
+- `index.js` is the entry point of the app.
+- Other files and folders in the root directory are related to configuration and dependency management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Customization
 
-### Making a Progressive Web App
+If you wish to customize the app or add additional features, you can modify the components, styles, and services accordingly. Make sure to replace the example APIs with real APIs that provide the sports data you need.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributions
 
-### Advanced Configuration
+Contributions to this project are welcome. If you find any bugs or want to add new features, feel free to submit a pull request or raise an issue.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+Enjoy using the Sports Results App! Stay updated with the latest scores, fixtures, and results of your favorite sports. If you have any questions or need further assistance, please don't hesitate to contact us.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# checkscore
+Author: Joseph Redmond
+Contact: josephredmond5@icloud.com
+Date: 01/08/23
